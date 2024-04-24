@@ -1,0 +1,99 @@
+.container {
+    background-color: rgb(39, 28, 50);
+    height: 25rem;
+    width: 35rem;
+    padding: 1rem;
+
+    button {
+        height: 2rem;
+        background-color: rgb(57, 124, 124);
+        border: none;
+        border-radius: 0.5rem;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .intro {
+        display: flex;
+        justify-content: space-between;
+
+        .header {
+            color: #fff;
+            padding: 1rem;
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+        .btnClick{
+            margin: 0.4rem;
+        }
+    }
+    .errorMessage{
+        color: rgb(197, 32, 32);
+        padding-bottom: 0.3rem;
+        font-size: 1.2rem;
+    }
+
+    .container2 {
+        .characterBox {
+            display: flex;
+            justify-content: space-between;
+
+            .characterText {
+                color: #fff;
+                font-weight: 600;
+                padding: 1rem;
+                font-size: 1.5rem;
+            }
+
+            .characterLength {
+                color: #fff;
+                font-weight: 600;
+                padding: 1rem;
+            }
+        }
+
+        .inputRange {
+            width: 95%;
+            margin: 1rem;
+        }
+    }
+
+    .checkBoxes {
+        display: grid;
+        grid-template-columns: auto auto;
+        color: #fff;
+        padding: 1rem;
+    }
+
+    .checkBoxes div {
+        display: flex;
+        gap: 0.5rem;
+        padding-top: 0.8rem;
+    }
+
+    .pwdStrength {
+        display: flex;
+        justify-content: space-between;
+
+        .strText {
+            color: #fff;
+            font-weight: 500;
+            padding: 1rem;
+        }
+
+        .strType {
+            color: #fff;
+            font-weight: 600;
+            margin-right: 2.5rem;
+            padding: 1rem;
+        }
+    }
+
+    .btnGenerate {
+        width: 100%;
+        height: 2.5rem;
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
