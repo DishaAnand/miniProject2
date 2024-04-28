@@ -1,0 +1,46 @@
+.likebtn{
+    border-radius: 1rem;
+    border: 2px solid rgb(152, 152, 152);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    .iconContainer{
+        padding-top: 0.2rem;
+        color:rgb(152, 152, 152);;
+    }
+    .likeText{
+        color:rgb(152, 152, 152);;
+        font-weight: 550;
+    }
+
+
+&:hover{
+    border: 2px solid red;
+    cursor: pointer;
+
+    .iconContainer,
+    .likeText{
+        color:red;
+    }
+}
+}
+
+.liked{
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+
+    .iconContainer{
+        padding-top: 0.2rem;
+        color:#fff;
+    }
+    .likeText{
+        color:#fff;
+        font-weight: 550;
+    }
+}
